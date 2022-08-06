@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+.agree { background-color: #f3f3f3; width:100%; margin: 0 auto; }
+
+
+.agree h1 { text-align: center; padding:60px 0 20px 0; color:#5c4a3b;font-size:35px; margin: 0;}
+
+.agree form{ width: 60%; margin: 0 auto;}
+.agree form h2 { text-align:left; font-size: 18px; padding: 20px 0 20px 0; color: #5c5c5c;}
+
+.agree form textarea { width: 100%; margin: 0 auto; border:1px solid rgb(222,222,222); color:rgb(102,102,102); height:300px; overflow-x:hidden; overflow-y:scroll; resize:none; vertical-align:top; font-size:18px; background: #fff; word-break:break-all; padding: 0 80px;}
+
+.agree form .allagr {text-align:left; margin:0 auto; padding-bottom:30px}
+.agree form input[type="checkbox"]{width:20px; height:20px;}
+.agree form .allagr label{ font-size: 24px;}
+
+.agree form .agr1, .agree form .agr2{ text-align:left; margin:0 auto; padding: 10px 0 60px 0; font-size: 18px;}
+.agree form .agr1 > label, .agree form .agr2 > label { font-size: 18px;}
+
+.agree form .agrBtn { margin: 60px auto 0; padding-bottom:50px; text-align: center;}
+.agree form .agrBtn > input{ width:30%; margin:10px; padding: 5px 0; border:1px solid #546b45; background-color: #546b45; color:#fff; cursor:pointer; height: 65px; font-size: 20px;}
+
+.agree form .agrBtn input:first-child {border:1px solid #a30033; background-color:#8d4f4f;}
+.agree form .agrBtn > input:last-child { border:1px solid #4c633d; background-color: #375225;}
+
+   

@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+section.signUp{ margin: 100px 0; position: relative;}
+section.signUp legend{ display: none;}
+section.signUp form{ width: 902px; height: 1015px; margin: 0 auto; padding: 0 80px; border: 1px solid #c7c7c7; box-sizing: border-box; border-radius: 60px; background-color: #f9f9f9; }
+section.signUp form h2{ margin: 68px 0 50px 0; font-size: 35px; text-align: left;}
+
+section.signUp button{ cursor: pointer;}
+section.signUp form div{ margin-bottom: 30px;}
+section.signUp form label{ display: inline-block; font-size: 20px; width: 161px;}
+section.signUp form input{ width: 400px; height: 40px; border-radius: 0; border: 1px solid #c7c7c7; box-sizing: border-box; margin-right: 2px; }
+section.signUp form input::placeholder{ font-size: 14px;}
+section.signUp form .phone_cfr input{ width: 304px; margin-right: 3px;}
+section.signUp form .phone_cfr button{ width: 110px; margin-left: 0;}
+section.signUp form button{ width: 115px; height: 38px; background-color: #f7edd0; border: 1px solid #c7c7c7; vertical-align: middle; box-sizing: border-box; margin-left: 15px;}
+
+section.signUp form div.gender input{ width: 20px; height: 20px; vertical-align: middle; padding: 0 20px;}
+section.signUp form div.gender input:last-child{ margin-left: 50px;}
+
+section.signUp form .submit_btn{ display: block; width: 370px; height: 50px; line-height: 45px; font-size: 18px; text-align: center; margin: 70px auto;}
+
+section.signUp div.x_btn{ width: 66px; height: 66px; background-color: #c7c7c7; border-radius: 50%; font-size: 30px; text-align: center; line-height: 60px; cursor: pointer; position: absolute; left: 50%; bottom: -40px; transform: translateX(-50%);}
+
+section.signUp form div.on{color:red;text-align:center; margin-top: -20px;}

@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+legend{ display: none;}
+
+section.login{ padding: 100px 0;}
+section.login form{ width: 634px; height: 650px; background-color: #f7efd0; margin: 0 auto; padding: 0 20px; box-sizing: border-box; font-size: 0; border: 1px solid #c7c7c7; box-sizing: border-box;}
+
+section.login form #user_id{ margin-top: 64px; width: 584px; height: 60px; border: 2px solid #c7c7c7; border-radius: 0; font-size: 18px; box-sizing: border-box;}
+section.login form #user_id::placeholder{ font-size: 18px;}
+section.login form #user_pw{ margin-top: 20px; width: 584px; height: 60px; border: 2px solid #c7c7c7; border-radius: 0; font-size: 18px; box-sizing: border-box;}
+section.login form #user_pw::placeholder{ font-size: 18px;}
+
+section.login form #auto{  display: block; margin: 22px 0 49px 0; font-size: 16px;}
+section.login form input#auto_log{ margin-right: 5px}
+
+section.login form button.login_btn{ width: 590px; height: 70px; text-align: center; font-size: 18px; background-color: #fff;  border: 2px solid #c7c7c7; box-sizing: border-box; cursor: pointer;}
+section.login form .choose{ display: inline-block; margin-right: 20px; width: 286px; height: 50px; text-align: center; font-size: 18px;  border: 2px solid #c7c7c7; box-sizing: border-box; background-color: #fff; line-height: 46px; margin-top: 24px;}
+section.login form .sign{ margin-right: 0;}
+
+section.login form .easy { margin: 40px 0 0 0; font-size: 16px; text-align: center;}
+section.login form a.page{ display: inline-block; margin-top: 10px;}
+section.login form a img{ text-align: center; margin-right: 38px;}
+section.login form a.google{ margin-left: 180px;}
+
+

@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+/* font-family: 'Nanum Gothic', sans-serif;
+font-family: 'Nanum Myeongjo', serif;
+font-family: 'Noto Sans KR', sans-serif; */
+
+.slide{ width: 100%; height: 648px; background: url(../img/slide.png) center no-repeat; font-family: 'Nanum Myeongjo', serif; z-index: 100;}
+.slide .slide_fbox{ display: flex; justify-content: center; height: 648px;  flex-direction: column; align-items: flex-end; position: relative;}
+.slide strong{ font-size: 80px;}
+.slide p{ padding-top: 84px; font-size: 30px; font-weight: 700;}
+.slide button{ position: absolute; right: 456px; bottom: 34px; width: 290px; height: 65px; border-radius: 20px; border: transparent; transition: all .5s;}
+.slide button:hover{ background: #f7edd0;}
+.slide button a{ font-size: 20px;}
+
+/* main */
+main .member { padding-top: 126px; box-sizing: border-box; position: relative;}
+main .member h2{ font-size: 30px; text-align: center;}
+main .member p{ font-size: 23px; text-align: center; padding: 26px 0 76px 0; box-sizing: border-box;}
+main .drt_img{ display: flex; justify-content: space-between;} 
+main .drt_img>div{ height: 100%;}
+main .drt_img a{ width: 285px; height: 285px;}
+main .drt_img img{ border-radius: 50%; transition: all .5s;}
+main .drt_img img:hover{ box-shadow: 3px 2px 20px rgba(132, 91, 9, 0.2);}
+main .drt_img a p{ font-size: 18px; padding-top: 54px; box-sizing: border-box;}
+
+main .cate{ margin-bottom: 126px; height: 442px; display: flex; flex-flow: row wrap; justify-content: space-between; align-content: space-between;}
+main .cate div{ width: 374px; height: 82px; border-radius: 20px; background: #dee6b6; transition: all .5s;}
+main .cate p{ font-size: 18px; text-align: center; line-height: 82px;}
+main .cate div:hover{ box-shadow: 3px 6px 16px rgba(82, 82, 82, 0.3);}
+
+main .use_info{ background: url(../img/mainsec6.png) center/cover; height: 320px;}
+main .use_info .wrap strong{ padding: 46px 0 32px 0; display: block; font-size: 30px; font-weight: 500;}
+main .use_info .wrap p{ font-size: 20px; line-height: 40px; text-align: left;}
+main .use_info .wrap div{ margin: 40px 0 20px 0; background-clip: content-box; width: 250px; height: 60px; background-color: #fff; border-radius: 20px; transition: all .5s;}
+main .use_info .wrap div:hover{ background: #7a664c; }
+main .use_info .wrap div:hover a{color: #fff;}
+main .use_info .wrap div a{ display: block; font-size: 20px; line-height: 60px;  text-align: center;}
+main .use_info .wrap div i{ font-size: 25px; margin-left: 10px; vertical-align: middle;}
+
+
+main .book{ padding: 126px 0; display: flex; flex-flow: row wrap; justify-content: space-between; align-content: space-between; height: 200px;}
+main .book div{display: flex; justify-content: space-around; gap: 0 150px; align-items: center; width: 582px; height: 86px; background: #dee6b6; border-radius: 10px;}
+main .book p{ font-size: 20px;}
+main .book a{padding: 5px; transition: all .5s;}
+main .book a:hover{ transform: scale(1.1);}
+
+main .bottom{ position: relative;}
+main .bottom .open{ position: absolute; right: 70px; bottom: 20px; width: 152px; height: 44px; border-radius: 22px; background: #e7e7e7; font-size: 14px; line-height: 44px; text-align: center;}
+main .bottom .open i{ padding-left: 10px; font-size: 18px; vertical-align: middle;}
+main .bottom .up{ position: absolute; right: 20px; bottom: 20px; background: #e7e7e7; width: 44px; height: 44px; border-radius: 50%; text-align: center; line-height: 44px;}
+main .bottom i{ font-size: 20px;}

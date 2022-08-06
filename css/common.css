@@ -1,0 +1,52 @@
+@charset "UTF-8";
+@import url(reset.css);
+@import url(nomalize.css); 
+@import url(default.css);
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&family=Nanum+Myeongjo:wght@400;700;800&family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+
+body, a{ color: #333; font-family: 'Noto Sans KR', sans-serif;}
+.wrap{ width: 1200px; margin: 0 auto; position: relative;}
+.fix{ color: #546b45;}
+
+header{ width: 100%; height: 126px; background: #d1b7a1;}
+header .logo a{ background: url(../img/logo.png)no-repeat; width: 102px; height: 91px; position: absolute; left: 0; top: 50%; transform: translateY(-50%);}
+
+header nav .hd_top{ display: flex; width: 152px; justify-content: space-between; position: absolute; right: 0; top: 20px;}
+header nav .hd_top li{ padding: 0 12px 0 0; box-sizing: border-box;}
+header .login{ box-sizing: border-box; border-right: 1px solid #333;}
+
+header a{ font-size: 18px; font-weight: 400;}
+header a:hover{ color: #546b45;}
+
+header nav .hd_bottom{ margin: 0 auto; display: flex; justify-content: space-between; width: 800px; height: 124px; align-items: center; padding-top: 36px; box-sizing: border-box;}
+header .hd_bottom >li{ position: relative;}
+header .hd_bottom >li >a{ display: block; width: 100%;  height: 100%;}
+header .sub{ position: absolute; left: 50%; top: 55px; width: 150px; display: none; transform: translateX(-50%); z-index: 5;}
+header .sub li{ width: 100%; height: 50px; background: #f7f7f7;}
+header .sub li a{ width: 100%; height: 100%; display: block; text-align: center; font-size: 14px; line-height: 40px;}
+
+
+.attach{ width: 120px; height: 444px; border-radius: 10px; background: #f4e8dd; display: flex; flex-direction: column; justify-content: space-evenly; align-items: center; position: fixed; right: 20px; bottom: 300px; z-index: 100; opacity: 0; visibility: hidden;}
+.attach.active{ opacity: 1; visibility: visible;}
+.attach i{ font-size: 55px; color: #666; transition: all .5s;}
+.attach i:hover{color: #333;}
+.attach p{ padding-top: 20px; text-align: center;}
+
+section h2{ font-size: 24px; text-align: center;}
+section p{ font-size: 18px; line-height: 36px; text-align: center;}
+
+
+section.bottom{ position: relative;}
+section.bottom .open{ position: absolute; right: 70px; bottom: 20px; width: 152px; height: 44px; border-radius: 22px; background: #e7e7e7; font-size: 14px; line-height: 44px; text-align: center;}
+section.bottom .open i{ padding-left: 10px; font-size: 18px; vertical-align: middle;}
+section.bottom .up{ position: absolute; right: 20px; bottom: 20px; background: #e7e7e7; width: 44px; height: 44px; border-radius: 50%; text-align: center; line-height: 44px;}
+section.bottom i{ font-size: 20px;}
+
+footer{ background: #d1b7a1; position: relative;}
+footer .wrap{ display: flex; flex-direction: column; height: 212px; justify-content: center;}
+footer ul{display: flex; gap: 0 25px; align-content: center; height: 30px;}
+footer ul li a{ padding: 3px 3px 0 0 ;}
+footer ul li a:hover{ font-weight: 700;}
+footer .sns{ position: absolute; right: 0; bottom: 33px; font-size: 42px;}
+footer i:hover{ color: #f7f7f7;}
+footer .sns .fa-instagram-square{ margin-right: 10px;}

@@ -1,0 +1,45 @@
+@charset "uft-8";
+
+.container{ width: 1120px; margin: 0 auto;}
+/* gnb */
+.gnb{ height: 178px; display: flex; justify-content: space-between; margin: 38px auto 62px auto;}
+.gnb div{ width: 178px; height: 100%; border-radius: 50%; background: #dee6b6; transition: all .3s;}
+.gnb div a{ width: 100%; height: 100%; display: inline-block; font-size: 20px;  display: flex; flex-direction: column; justify-content: center; align-items: center;}
+.gnb div:hover{ background: #f7edd0; box-shadow: 5px 5px 15px rgba(33, 32, 28, 0.15); }
+
+/* main */
+main h2{ text-align: center; font-size: 28px; line-height: 44px;}
+main > img{ display: block; margin: 60px auto 100px auto;}
+
+/* info */
+section.info div{ width: 534px; height: 191px; float: left; margin-right: 50px; border: 1px solid #c7c7c7; box-sizing: border-box;}
+section.info div:last-child{ margin-right: 0;}
+section.info div ul.one{ padding: 48px 68px;}
+section.info div ul.two{ padding: 20px 90px;}
+section.info div ul li{ font-size: 18px; line-height: 30px; text-align: center;}
+
+/* process */
+section.process{ padding: 100px 0 0 0;}
+section.process .container2{ width: 830px; margin: 36px auto 0;}
+section.process .container2 ul{ width: 390px; height: 220px; border: 1px solid #c7c7c7; border-radius: 10px; float: left; box-sizing: border-box;}
+section.process .container2 .one, ul.three{ margin-right: 50px;}
+section.process .container2 ul.one, ul.two{ margin-bottom: 38px;}
+section.process ul h3{ font-size: 20px; text-align: center; padding: 15px 0 35px;}
+section.process ul li{ padding-left: 10px; line-height: 34px;}
+
+/* 상담 주제 */
+section.topic { padding: 100px 0;}
+section.topic ul.topic_cate{ margin-top: 37px;}
+section.topic ul.topic_cate li{ float: left; width: 166px; height: 58px; border-radius: 10px; background-color: #f7edd0; transition: all .5s; text-align: center; line-height: 58px; font-size: 20px;} 
+section.topic ul.topic_cate li:hover{ background-color: #dee6b6; box-shadow: 6px 6px 10px rgba(114, 91, 23,0.15);}
+section.topic ul.topic_cate li~li{ margin-left: 24px;}
+section.topic ul.notice{ margin-top: 38px;}
+section.topic ul.notice li{ line-height: 30px;}
+
+/* 비용 및 상담 문의 */
+section.cost{ background: #dee6b6; padding-bottom: 100px; background-clip: content-box;}
+section.cost h2{ padding: 30px 0 38px;}
+section.cost div{ width: 496px; height: 382px; margin: 0 auto;}
+section.cost div input{ width: 100%; height: 46px; font-size: 20px; margin-bottom: 16px; border: 1px solid #c7c7c7; border-radius: 0;}
+section.cost div select{ width: 502px; height: 52px; padding: 0 18px; box-sizing: border-box; font-size: 20px; margin-bottom: 16px;  border: 1px solid #c7c7c7; border-radius: 0;}
+section.cost button{ width: 289px; height: 46px; background-color: #fff; border: 1px solid #c7c7c7; display: block; margin: 30px auto 0; font-size: 22px; cursor: pointer;}

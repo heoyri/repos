@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+.container{ width: 1120px; margin: 0 auto;}
+/* gnb */
+.gnb{ height: 160px; display: flex; justify-content: space-between; margin: 38px auto 62px auto;}
+.gnb div{ width: 160px; height: 100%; border-radius: 50%; background: #dee6b6; transition: all .3s;}
+.gnb div a{ width: 100%; height: 100%; display: inline-block; font-size: 20px;  display: flex; flex-direction: column; justify-content: center; align-items: center;}
+.gnb div:hover{ background: #f7edd0; box-shadow: 5px 5px 15px rgba(33, 32, 28, 0.15); }
+
+/* 내 마음을 잘 알아보는 법 */
+main .top img{  display: block; margin: 60px auto 0 auto;}
+main .top strong{ display: block; margin: 60px 0 40px 0; text-align: center; font-size: 24px; font-weight: 400;}
+
+/* 종합심리검사 과정 */
+main section.pro{ padding: 100px 0;}
+main .pro h2{ font-size: 24px; text-align: center;}
+main .pro p{ font-size: 20px; text-align: center; margin: 40px 0 20px 0;}
+main .pro .box{  display: flex; width: 100%; justify-content: space-between;}
+main .pro .box div{ display: flex; justify-content: center; align-items: center; width: 334px; height: 50px; border-radius: 20px; background: #dee6b6; font-size: 18px;}
+
+/* 종합심리검사 구성 */
+main .construct p{ margin: 40px 0;}
+main .construct table.top { margin: 0 auto; width: 883px; height: 420px; font-size: 16px;}
+main .construct table.top tr{ width: 100%;}
+main .construct table.top tr th{ text-align: left; padding-left: 20px; box-sizing: border-box; background: #f7edd0; vertical-align: middle; border: 1px solid #c7c7c7; font-size: 20px; font-weight: 400;}
+main .construct table.top td{ border: 1px solid #c7c7c7; box-sizing: border-box; text-align: center; vertical-align: middle; font-size: 16px; line-height: 20px;}
+main .construct table.top colgroup col:nth-child(1){width: 150px; height: 116px;}
+main .construct table.top colgroup col:nth-child(2){width: 150px; height: 84px;}
+main .construct table.top colgroup col:nth-child(3){ width: 583px; height: 169px;}
+main .construct table.top .transp{ border-bottom: 1px solid transparent;}
+main .construct table.top td.col3{ padding: 0 10px; box-sizing: border-box; line-height: 26px; text-align: center; vertical-align: middle;}
+
+main .construct table.bottom{  margin: 38px auto; width: 883px; height: 254px; font-size: 16px;}
+main .construct table.bottom tr{ width: 100%;}
+main .construct table.bottom tr th{ text-align: left; padding-left: 10px; box-sizing: border-box; background: #f7edd0; vertical-align: middle; border: 1px solid #c7c7c7; font-size: 19px; font-weight: 400; width: 150px;}
+main .construct table.bottom tr td{ border: 1px solid #c7c7c7; box-sizing: border-box; text-align: center; vertical-align: middle; font-size: 16px; line-height: 20px;}
+main .construct .thirdTr{ height: 87px;}
+main .construct ul{ width: 883px; margin: 0 auto;}
+main .construct ul li{ font-size: 16px; line-height: 30px; color: #777;}
+
+/* 상담 기간 효과 */
+section.time_effect{ padding: 100px 0;}
+section.time_effect > div{  width: 550px; float: left; border: 1px solid #c7c7c7; border-radius: 10px; text-align: center; box-sizing: border-box;}
+section.time_effect .time{ margin-right: 20px;}
+section.time_effect img{ padding: 22px 0 26px 0;}
+section.time_effect h3{ font-size: 24px;}
+section.time_effect .time ul{ padding: 50px 50px 26px;}
+section.time_effect .effect ul{ padding: 50px 75px 29px;}
+section.time_effect ul li{ font-size: 18px; line-height: 30px; text-align: center;}
+
+/* 비용 및 상담 문의 */
+section.cost{ background: #dee6b6; padding-bottom: 100px; background-clip: content-box;}
+section.cost h2{ padding: 30px 0 38px;}
+section.cost div{ width: 496px; height: 382px; margin: 0 auto;}
+section.cost div input{ width: 100%; height: 46px; font-size: 20px; margin-bottom: 16px; border: 1px solid #c7c7c7; border-radius: 0;}
+section.cost div select{ width: 502px; height: 52px; padding: 0 18px; box-sizing: border-box; font-size: 20px; margin-bottom: 16px;  border: 1px solid #c7c7c7; border-radius: 0;}
+section.cost button{ width: 289px; height: 46px; background-color: #fff; border: 1px solid #c7c7c7; display: block; margin: 30px auto 0; font-size: 22px; cursor: pointer;} 
+ 
